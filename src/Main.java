@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
+    static void add(int x,int y)
+    {
+        int a = x + y ;
+    }
     public static void main(String[] args)
     {
         System.out.println("Enter the 2 numbers");
