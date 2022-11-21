@@ -6,9 +6,12 @@ public class Main {
         int a = x + y ;
         System.out.println(+a);
     }
+
     static void sub(int x,int y) {
         int b = x - y;
         System.out.println(+b);
+
+
     }
     static void mul(int x, int y)
     {
