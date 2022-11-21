@@ -15,6 +15,10 @@ public class Main {
     {
         int c = x * y;
     }
+    static void div(int x, int y)
+    {
+        float c = x / y;
+    }
     public static void main(String[] args)
     {
         System.out.println("Enter the 2 numbers");
