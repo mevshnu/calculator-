@@ -10,7 +10,7 @@ public class Main {
     }
     static void mul(int x, int y)
     {
-        int c = x - y;
+        int c = x * y;
     }
     public static void main(String[] args)
     {
