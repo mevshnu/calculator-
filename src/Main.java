@@ -4,17 +4,21 @@ public class Main {
     static void add(int x,int y)
     {
         int a = x + y ;
+        System.out.println(":"+a);
     }
     static void sub(int x,int y) {
         int b = x - y;
+        System.out.println(":"+b);
     }
     static void mul(int x, int y)
     {
         int c = x * y;
+        System.out.println(":"+c);
     }
     static void div(int x, int y)
     {
-        float c = x / y;
+        float d = x / y;
+        System.out.println(":"+d);
     }
     public static void main(String[] args)
     {
@@ -27,6 +31,19 @@ public class Main {
         System.out.println("enter 3 for multiplication");
         System.out.println("enter 4 for division");
         int z = sc.nextInt();
+        switch (z)
+        {
+            case 1 : add(x,y);
+            break;
+            case 2 : sub(x,y);
+            break;
+            case 3 : mul(x,y);
+            break;
+            case 4 : div(x,y);
+            default:
+                System.out.println("wrong input");
+                break;
+        }
 
     }
 }
