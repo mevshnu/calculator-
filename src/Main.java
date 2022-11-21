@@ -8,6 +8,10 @@ public class Main {
     static void sub(int x,int y) {
         int b = x - y;
     }
+    static void mul(int x, int y)
+    {
+        int c = x - y;
+    }
     public static void main(String[] args)
     {
         System.out.println("Enter the 2 numbers");
