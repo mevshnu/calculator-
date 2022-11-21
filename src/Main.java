@@ -20,8 +20,14 @@ public class Main {
     }
     static void div(int x, int y)
     {
-        float c = x / y;
-        System.out.println(+c);
+        try {
+            float c = x / y;
+            System.out.println(+c);
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println(e);
+        }
     }
     public static void main(String[] args)
     {
